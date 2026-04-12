@@ -22,7 +22,6 @@ body::before{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
     z-index: -1;
     
 }
@@ -74,7 +73,6 @@ body>main>p{
     transition: 0.3s;
 }
 .btn:hover{
-
     width:15em ;
 }
 .ins{
@@ -161,7 +159,18 @@ section>form{
         font-size: 1.5em;
     }
     table{
-        padding: 0.2em;
-        border-spacing: 1.2em;
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 0.5em;
+        border-spacing: 0.7em;
     }
+    th{
+        font-size: 1em;
+    }
+    tr,td{
+        font-size: 0.7em;
+    }
+
 }
