@@ -172,5 +172,17 @@ section>form{
     tr,td{
         font-size: 0.7em;
     }
-
+    .btn {
+    background-color: rgb(7, 147, 186);
+    border-radius: 10px;
+    display: block;
+    margin: 4em auto; 
+    padding: 0.5em;
+    width: 10em;
+    transition: 0.3s;
+    border: none;
+}
+form{
+    margin: 2em auto;
+}
 }
