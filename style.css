@@ -71,15 +71,15 @@ body>main>p{
     padding: 0.5em;
     width: 10em;
     transition: 0.3s;
+    color: white;
 }
 .btn:hover{
     width:15em ;
 }
 .ins{
     color: white;
-    margin: 3em;
     justify-self:center;
-    margin: 1em;
+    margin: 2em;
 }
 .list>li{
     padding:0.7em ;
